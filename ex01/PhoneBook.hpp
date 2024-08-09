@@ -1,12 +1,21 @@
+#ifndef PHONEBOOK_HPP
+#define PHONEBOOK_HPP
+
 #include <iostream>
+#include "Contact.hpp"
 
 class PhoneBook
 {
 private:
-	_AddContact();
-	_SeachContact();
-	_Exit();
+	Contact book[8];
+	int		i;
+	bool	nuberOfContact;
 public:
 	PhoneBook();
 	~PhoneBook();
+
+	int	AddContact();
+	int	SeachContact();
 };
+
+#endif
