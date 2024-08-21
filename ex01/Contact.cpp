@@ -22,3 +22,10 @@ void	Contact::addDarkestSecret(std::string &secret)
 {
 	this->darkestSecret = secret;
 }
+
+Contact::Contact()
+{
+}
+Contact::~Contact()
+{
+}

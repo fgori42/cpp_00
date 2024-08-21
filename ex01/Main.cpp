@@ -1,4 +1,6 @@
 #include "PhoneBook.hpp"
+#include "Contact.hpp"
+#include <iostream>
 
 
 int main()
@@ -9,7 +11,7 @@ int main()
 	while(1)
 	{
 		std::cout << "Hi, how do you prefer to continue?" << std::endl;
-		std::getline(cin, support);
+		std::getline(std::cin, support);
 		if (support == "ADD")
 		{
 			phone.AddContact();
