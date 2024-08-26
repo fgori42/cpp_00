@@ -19,6 +19,13 @@ public:
 	void	addNickname(std::string &nickname);
 	void	addNumber(std::string &number);
 	void	addDarkestSecret(std::string &number);
+
+	std::string	getName();
+	std::string	getLastname();
+	std::string	getNickname();
+	std::string	getPhone();
+	std::string	getSecret();
+
 	Contact();
 	~Contact();
 };

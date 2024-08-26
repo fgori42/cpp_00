@@ -2,13 +2,15 @@
 #define PHONEBOOK_HPP
 
 #include <iostream>
+#include <sstream>
+#include <string>
 #include "Contact.hpp"
 
 class PhoneBook
 {
 private:
 	Contact book[8];
-	int		i;
+	int		id;
 	bool	nuberOfContact;
 public:
 	PhoneBook();
